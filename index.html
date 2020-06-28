@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body >
+    <!-- Navbar -->
+    <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+        <a class="navbar-brand" href="#">Programming Quiz</a>
+           
+          <div class="navbar-nav">
+            <a class="navbar-brand" href="highScores.html">High Scores</a>
+          </div>
+    </nav>
+
+<div id = "Main">
+<!-- timer -->
+    <div class = "timer">
+        <h1 class="time"></h1>
+        
+    </div>
+<!-- Question holder -->
+    <div class = "container" > 
+        <div id = "scoreCount" > Score</div>
+        <div id = "question-container" class="hide">
+       <h1> <div id = "question">Programming Quiz</div></h1>
+        <div id = "answer-buttons" class="answerButtons">
+            <button id="an1" class = "btn">Answer 1</button>
+            <button id="an2" class = "btn">Answer 2</button>
+            <button id="an3" class = "btn">Answer 3</button>
+            <button id="an4" class = "btn">Answer 4</button>
+        </div>
+       
+    </div>
+<!-- Start button -->
+        <div id="functionBtns" class = "controls">
+            <button id="start-button" class="startButton">Start</button>
+            <button id="submit-button" class="hide">Submit</button>
+           
+        </div>
+      
+    </div>
+</div>
+<!-- Javascript link -->
+    <script src="script.js"></script>
+</body>
+</html>
